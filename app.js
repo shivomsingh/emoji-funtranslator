@@ -4,6 +4,12 @@ var outputArea = document.querySelector(".output-area");
 
 var serverUrl = "https://api.funtranslations.com/translate/article_rewrite.json"
 
+function errorHandler(error){
+    console.log("error occured: ", error)
+    alert("something went wrong")
+
+}
+
 function clickHandler(){
     var url = serverUrl + "?text=" + inputArea.value;
     fetch(url)
@@ -13,6 +19,7 @@ function clickHandler(){
 
         outputArea.innerText = outputTxt
     })
+    .catch(errorHandler)
 
 }
 
