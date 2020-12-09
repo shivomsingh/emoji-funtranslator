@@ -39,6 +39,7 @@ textarea{
     margin: auto;
     padding: 1rem;
     margin-bottom: 1rem;
+    font-family: 'Andika New Basic', sans-serif;
 }
 
 .txt-button{
@@ -48,6 +49,7 @@ textarea{
     background-color: var(--primary-color);
     border: none;
     margin-bottom: 1rem;
+    font-family: 'Andika New Basic', sans-serif;
 }
 
 .output-area{
