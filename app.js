@@ -1,0 +1,1 @@
+var txtButton = document.querySelector(".txt-button");

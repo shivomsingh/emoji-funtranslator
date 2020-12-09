@@ -1,0 +1,63 @@
+/* layout */
+
+body{
+    margin: 0;
+}
+
+:root{
+    --primary-color: rgb(161, 143, 116);
+}
+
+.navbar{
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 1em;
+    font-size: large;
+}
+
+.header{
+    max-width: 600px;     
+    width: 80%;
+    margin: auto; 
+    font-size: 1.25rem;
+    padding: 1em;
+}
+
+.section{
+    max-width: 600px;     
+    width: 80%;
+    margin: auto; 
+}
+
+textarea{
+    /* max-width: 100%; */
+    width: 100%;
+    height: 10vh;
+    margin: auto;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.txt-button{
+    display: block;
+    padding: 1.25rem;
+    font-size: large;
+    background-color: var(--primary-color);
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.output-area{
+    display: block;
+    border: solid;
+    height: 10vh;
+    width: 100%;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+
+/* typography */
+.line{
+    font-size: 30px;
+}
